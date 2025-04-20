@@ -25,6 +25,7 @@ Developed by: Sasinthara S
 RegisterNumber:  212223110045
 */
 ```
+```
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
@@ -69,7 +70,7 @@ print("Confusion Matrix:\n", confusion)
 
 classification_report_output = classification_report(y_test, y_pred)
 print("Classification Report:\n", classification_report_output)
-
+```
 ## Output:
 
 ![image](https://github.com/user-attachments/assets/6d786487-3779-4832-9ee5-b15598ea90ee)
